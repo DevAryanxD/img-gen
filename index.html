@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Image Generator - Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background: linear-gradient(135deg, #1f2937 0%, #111827 100%);
+            min-height: 100vh;
+            color: #e5e7eb;
+            font-family: 'Inter', sans-serif;
+        }
+        nav a {
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #10b981;
+        }
+        .hero-btn {
+            transition: background-color 0.3s ease;
+        }
+        .hero-btn:hover {
+            background-color: #10b981;
+        }
+        footer a {
+            color: #34d399;
+            text-decoration: underline;
+        }
+        footer a:hover {
+            color: #6ee7b7;
+        }
+    </style>
+</head>
+<body class="flex flex-col min-h-screen p-4">
+    <!-- Navigation Bar -->
+    <nav class="w-full bg-gray-900/80 backdrop-blur-md fixed top-0 left-0 z-10 p-4 shadow-lg">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <h1 class="text-xl font-bold text-emerald-400">7islands</h1>
+            <div class="space-x-4">
+                <a href="about.html" class="text-gray-300 hover:text-emerald-400">About</a>
+                <a href="services.html" class="text-gray-300 hover:text-emerald-400">Services</a>
+                <a href="contact.html" class="text-gray-300 hover:text-emerald-400">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="flex flex-col items-center justify-center flex-grow mt-20 text-center">
+        <h2 class="text-4xl font-bold text-emerald-400 mb-4">Welcome to AI Image Generator</h2>
+        <p class="text-gray-300 max-w-2xl mb-6">Create stunning images from text prompts with our powerful AI. Choose your style, dimensions, and content type, and bring your imagination to life!</p>
+        <a href="image-gen.html" class="hero-btn py-3 px-6 bg-emerald-600 text-white rounded-lg font-semibold hover:bg-emerald-500">Start Generating</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="w-full max-w-4xl mx-auto mt-8 text-center text-gray-400 text-sm">
+        <p>© 2025 AI Image Generator. All rights reserved.</p>
+    </footer>
+</body>
+</html>
